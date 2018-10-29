@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Updated Portfolio</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -16,70 +17,109 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <span class="navbar-brand mb-0 h1">
-                        <h1>Fady Naguib</h1>
-                     </span>
-              
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#home">Home</a>
+<!-- 
+<nav class="naav navbar navbar-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="naavBtn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
-                  </ul>
-                </div>
-              </nav>
+         
+            
+          </ul>
+         
+        </div>
+      </nav> -->
 
-    <div id ="#home" class="jumbotron">
+
+
+
+<div id="home" class="jumbo jumbotron">
+
+    <div id="particles-js"></div>
+
+
+    <nav class="navbar navbar-light">
+
+        <button class="naavBtn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home"><div class=" navItem">Home</div></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"><div class=" navItem">Contact</div></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio"><div class=" navItem">Portfolio</div></a>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="box1 container">
         <div class="row">
-            <div class="col col-xl-3">
-                    <div class="card">
-                            <img src="assets/images/flipcard.jpg" alt="Fady" style="width:100%; height:300px">
-                            <br>
-                            <h3>Fady Naguib</h3>
-                            <p>University of Arziona
-                            <p class="title">Full Stack Developer/Engineer</p>
-                            <p>
-                            <a href="https://github.com/fadynaguib96"><i class="logo fa fa-github"></i></a> 
-                            <a href="www.linkedin.com/in/fady-naguib"><i class="logo fa fa-linkedin"></i></a> 
-                        </p>
-                           
-                          </div>
-        
-    
+            <div class="col col-xl-12 d-flex justify-content-center">
+                <img id="myImg" class="rounded-circle" src="assets/images/flipcard.jpg" alt="Fady's Picture">
             </div>
-            <div class="col col-xl-9">
-                <h1 class="display-4">Hello, world!</h1>
-                <p class="lead">My name is Fady Naguib, a full-stack developer with a wide background in engineering.</p>
+        </div>
+        <div class="row">
+            <div class="col col-xl-12">
+                <h1 class="display-4 d-flex justify-content-center">Hello, world!</h1>
+                <p class="lead d-flex justify-content-center">My name is Fady Naguib, a full-stack developer with a
+                    wide background in
+                    engineering.</p>
                 <hr class="my-4">
-                <p> Proficient with multiple front-end and back-end web development languages, frameworks, and
+                <p class="intro"> Proficient with multiple front-end and back-end web development languages,
+                    frameworks, and
                     databases
                     such as: HTML5, CSS3, Javascript, jQuery, Firebase, Node.js, React.js, Express.js Java, MySQL,
                     MongoDB,and Bootstrap.</p>
-                <a class="btn btn-primary btn-lg" href="#portfolio" role="button">Learn more</a>
 
             </div>
-
-
         </div>
+
+
+
+
 
     </div>
 
-    
-    <div class="parallax"></div>
 
-    <div id = "portfolio" class= "container">
+
+</div>
+
+
+
+
+<div class="parallax"></div>
+
+<div id="portfolio" class="container">
+    <div class="row">
+        <div class="col col-xl-12">
+
+
 
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -93,47 +133,69 @@
                     <div class="carousel-item active">
                         <img class="portfolioImg d-block w-100" src="assets/images/hangman.JPG" alt="First slide">
                         <div class="captionBox carousel-caption d-none d-md-block">
-                                <h5 class="captionHeader">Word Guess Game</h5>
-                                <p class="captionWords">This is a basic hangman game, in a random soccer team is picked at random and displayed as empty lines. The player would then have seven tries to try to guess the correct letters in the word. The game automatically resets after the player either wins or loses. 
-                                    <a href="https://fadynaguib96.github.io/Word-Guess-Game/">Go ahead and try it out!</a>
-                                </p>
-                              </div>
+                            <h5 class="captionHeader">Word Guess Game</h5>
+                            <p class="captionWords">This is a basic hangman game, in a random soccer team is picked at
+                                random and displayed as empty lines. The player would then have seven tries to try to
+                                guess
+                                the correct letters in the word. The game automatically resets after the player either
+                                wins
+                                or loses.
+                                <a href="https://fadynaguib96.github.io/Word-Guess-Game/">Go ahead and try it out!</a>
+                            </p>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img class="portfolioImg d-block w-100" src="assets/images/crystal.JPG" alt="Second slide">
                         <div class="captionBox carousel-caption d-none d-md-block">
-                                <h5 class="captionHeader">Crystal Collector Game</h5>
-                                <p class="captionWords">This is a crystal collector game. Four crystals are displayed, each of them with a random set score between 1-12. The objective of the game is to try to match the score assigned by the computer excatly, no more and no less.
-                                    <a href="https://fadynaguib96.github.io/unit-4-game/">Go ahead and try it out!</a>
-                                </p>
-                              </div>
+                            <h5 class="captionHeader">Crystal Collector Game</h5>
+                            <p class="captionWords">This is a crystal collector game. Four crystals are displayed, each
+                                of
+                                them with a random set score between 1-12. The objective of the game is to try to match
+                                the
+                                score assigned by the computer excatly, no more and no less.
+                                <a href="https://fadynaguib96.github.io/unit-4-game/">Go ahead and try it out!</a>
+                            </p>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img class="portfolioImg d-block w-100" src="assets/images/Giftastic.JPG" alt="Third slide">
                         <div class="captionBox carousel-caption d-none d-md-block">
-                                <h5 class="captionHeader">Giftastic</h5>
-                                <p class="captionWords">This is a fun giphy website with a hip-hop theme. Buttons of famous hip-hop artist are displayed on the main page. Once clicked, 10 up-to-date giphy are display on the poge used the Giphy API. The user can also add his/her own artists to check out their latest gifs. 
-                                    <a href="https://fadynaguib96.github.io/Giftastic/">Go ahead and try it out!</a>
-                                </p>
-                              </div>
+                            <h5 class="captionHeader">Giftastic</h5>
+                            <p class="captionWords">This is a fun giphy website with a hip-hop theme. Buttons of famous
+                                hip-hop artist are displayed on the main page. Once clicked, 10 up-to-date giphy are
+                                display on the poge used the Giphy API. The user can also add his/her own artists to
+                                check
+                                out their latest gifs.
+                                <a href="https://fadynaguib96.github.io/Giftastic/">Go ahead and try it out!</a>
+                            </p>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img class="portfolioImg d-block w-100" src="assets/images/trivia.JPG" alt="Fourth slide">
                         <div class="captionBox carousel-caption d-none d-md-block">
-                                <h5 class="captionHeader">Trivia Game</h5>
-                                <p class="captionWords">This is a Russia 2018 World Cup game. The player will have to answer 10 questions about the world cup, each question within a 20 second period. If the time runs out, the player doesn't record an answered question and the next question is displayed. 
-                                    <a href="https://fadynaguib96.github.io/TriviaGame/">Go ahead and try it out!</a>
-                                </p>
-                              </div>
+                            <h5 class="captionHeader">Trivia Game</h5>
+                            <p class="captionWords">This is a Russia 2018 World Cup game. The player will have to
+                                answer 10
+                                questions about the world cup, each question within a 20 second period. If the time
+                                runs
+                                out, the player doesn't record an answered question and the next question is displayed.
+                                <a href="https://fadynaguib96.github.io/TriviaGame/">Go ahead and try it out!</a>
+                            </p>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img class="portfolioImg d-block w-100" src="assets/images/trainscheduler.JPG" alt="Fifth slide">
                         <div class="captionBox carousel-caption d-none d-md-block">
-                                <h5 class="captionHeader">Train Scheduler</h5>
-                                <p class="captionWords">This is a handy train scheduler website that allows the admin to display the latest trains, destination, next arrival times, and minutes to arrival. This website uses firebase to store all train information along with the moment.js library to display the next arrival and minutes to arrival sections of the website.
-                                    <a href="https://fadynaguib96.github.io/TrainScheduler/">Go ahead and try it out!</a>
-                                </p>
-                              </div>
+                            <h5 class="captionHeader">Train Scheduler</h5>
+                            <p class="captionWords">This is a handy train scheduler website that allows the admin to
+                                display the latest trains, destination, next arrival times, and minutes to arrival.
+                                This
+                                website uses firebase to store all train information along with the moment.js library
+                                to
+                                display the next arrival and minutes to arrival sections of the website.
+                                <a href="https://fadynaguib96.github.io/TrainScheduler/">Go ahead and try it out!</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -145,37 +207,48 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-    
+
         </div>
-
-    <div class="parallax"></div>
-
-    <div id ="contact" class="container">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col col-xl-12">
-                <h2>Contact</h2>
-                <div class="row">
-                    <div class="col col-xl-12">
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Name:</label>
-                                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Email:</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="youremail@gmail.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Message:</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder="Write message here"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
-                    </div>
+                <div id="display"></div>
+            </div>
+        </div> -->
+    </div>
+</div>
+
+
+
+</div>
+
+<div class="parallax2"></div>
+
+<div id="contact" class="container">
+    <div class="row">
+        <div class="col col-xl-12">
+            <h2>Contact</h2>
+            <div class="row">
+                <div class="col col-xl-12">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name:</label>
+                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="youremail@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder="Write message here"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 
 
@@ -185,6 +258,8 @@
 
 
 
+<script type="text/javascript" src="assets/javascript/particles.js"></script>
+<script type="text/javascript" src="assets/javascript/portfolio.js"></script>
 
 
 
