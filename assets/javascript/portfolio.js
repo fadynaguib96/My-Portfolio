@@ -1,27 +1,17 @@
-// $(".overlay").on("click", function on (){
-//     $("#overlay").style.display = "block"
-// })
+// particle 
 
-
-// function on() {
-//     document.getElementById("overlay").style.display = "block";
-// }
-
-// function off() {
-//     document.getElementById("overlay").style.display = "none";
-// }
 
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 380,
+      "value": 80,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#181413"
+      "value": "#FFFFFF"
     },
     "shape": {
       "type": "circle",
@@ -61,7 +51,7 @@ particlesJS("particles-js", {
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#DE630E",
+      "color": "#47361F",
       "opacity": 0.4,
       "width": 1
     },
@@ -121,3 +111,11 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
+
+
+
+
+
+
+
+
