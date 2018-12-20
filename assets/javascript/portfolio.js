@@ -1,5 +1,32 @@
 // particle 
 
+// $(document).ready(function (){
+
+
+
+//   var ctx = document.getElementById("myChart");
+//   var Chart = new Chart(ctx, {
+//       type: 'radar',
+//       data: {
+//           labels: ['HTML5 & CSS3', 'BootStrap', 'JavaScript', 'jQuery', 'Node.js', 'Express.js', 'React.js','MongoDB', 'MySQL', 'Java', 'Python'],
+//           datasets: [{
+//               data: [90, 90, 80, 80, 80, 80, 70, 70, 50, 35, 40],
+//               label: "Fluency",
+//               backgroundColor:  'rgba(255, 99, 132, 0.2)',
+//               borderColor: "gold",
+//               // fill: false
+//               pointBackgroundColor: "black"
+          
+  
+              
+//           }]
+//       }   
+//   })
+
+// })
+
+
+
 
 particlesJS("particles-js", {
   "particles": {

@@ -15,7 +15,9 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Charm|Dosis|Staatliches|Abril+Fatface" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -40,8 +42,8 @@
                         <a class="nav-link js-scroll-trigger" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-                        </li>
+                        <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
                     </li>
@@ -58,21 +60,31 @@
     <div class="box1 container">
         <div class="row">
             <div class="col col-xl-12 d-flex justify-content-center">
-                <img id="myImg" class="rounded-circle" src="assets/images/flipcard.jpg" alt="Fady's Picture">
+                <img id="myImg" class="rounded-circle" src="assets/images/headshot.jpg" alt="Fady's Picture">
             </div>
         </div>
         <div class="row">
             <div class="col col-xl-12">
-                <h1 class="display-4 d-flex justify-content-center">Hello, world!</h1>
+                <h1 class="display-4 d-flex justify-content-center jumboheader">Hello, world!</h1>
                 <p class="lead d-flex justify-content-center">My name is Fady Naguib, a full-stack developer with a
                     wide background in
                     engineering.</p>
                 <hr class="my-4">
-                <p class="intro"> Proficient with multiple front-end and back-end web development languages,
+                <div class="content">
+                    <a href="#skills">
+                        <svg id="more-arrows">
+                          <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
+                          <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
+                          <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
+                        </svg>
+                    </a>
+                  </div>
+                </div>
+                <!-- <p class="intro"> Proficient with multiple front-end and back-end web development languages,
                     frameworks, and
                     databases
                     such as: HTML5, CSS3, Javascript, jQuery, Firebase, Node.js, React.js, Express.js Java, MySQL,
-                    MongoDB,and Bootstrap.</p>
+                    MongoDB,and Bootstrap.</p> -->
 
             </div>
         </div>
@@ -90,161 +102,168 @@
 
 
 <section id="about">
-        <div class="container">
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">About Me!</h2>
-              <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading aboutHeading">About Me</h2>
+                <hr>
             </div>
-          </div>
-          <br>
-          <div class="row">
+        </div>
+        <br>
+        <div class="row">
             <div class="col-lg-12">
                 <ul class="timeline">
-                <li>
-                    <div class="timeline-image">
-                    <img class="rounded-circle img-fluid timeImg" src="assets/images/timeline1.jpg" alt="">
-                </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4>2013-2017</h4>
-                      <h4 class="subheading">My Humble Beginnings</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p class="text-muted">I received my B.S.E in Chemical Engineering from Arizona State University. During that time period, I've gained some 
-                          valuable skills including complex problem solving, ciritcal thinking among other technical skills, which will of greater use during the 
-                          rest of my journey.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image">
-                    <img class="rounded-circle img-fluid timeImg" src="assets/images/timeline2.png" alt="">
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4>January 2018</h4>
-                      <h4 class="subheading">The Emergence of a Passion</h4>
-                    </div>
-                    <div class="timeline-body">
-                        <p class="text-muted">After graduation, I began working as a research associate at Arizona State University, while simultaneously exploring other fields in the engineering industry
-                            that interested me. After a few months, I started looking at courses on Udemy on web development. The rest as they say is history.</p>
-                    </div>
-                </div>
-                </li>
-                <li>
-                  <div class="timeline-image">
-                      <img class="rounded-circle img-fluid timeImg" src="assets/images/timeline3.jpeg" alt="">
-                    </div>
-                  <div class="timeline-panel">
-                      <div class="timeline-heading">
-                      <h4>September 2018</h4>
-                      <h4 class="subheading">Taking the Leap of Faith</h4>
-                    </div>
-                    <div class="timeline-body">
-                        <p class="text-muted">After considering my options, I decided to attend the Univeristy of Arizona Coding Bootcamp to futher tone my engineering skills in the software world.
-                            Through constant learning and application, I was able to start my new journey and develop mu understanding further.
-                        </p>
-                    </div>
-                </div>
-                </li>
-                <li class="timeline-inverted">
-                  <div class="timeline-image">
-                    <h4>Be Part
-                        <br>Of My
-                      <br>Story!</h4>
-                    </div>
-                </li>
-            </ul>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid timeImg" src="assets/images/timeline1.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="aboutText">2013-2017</h4>
+                                <h4 class="subheading aboutText">My Humble Beginnings</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="aboutExplanation">I received my B.S.E in Chemical Engineering from Arizona
+                                    State University. During that time period, I've gained some
+                                    valuable skills including complex problem solving, ciritcal thinking among other
+                                    technical skills, which will of greater use during the
+                                    rest of my journey.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid timeImg" src="assets/images/timeline2.png" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="aboutText">January 2018</h4>
+                                <h4 class="subheading aboutText">The Emergence of a Passion</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="aboutExplanation">After graduation, I began working as a research associate
+                                    at Arizona State University, while simultaneously exploring other fields in the
+                                    engineering industry
+                                    that interested me. After a few months, I started looking at courses on Udemy on
+                                    web development. The rest as they say is history.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid timeImg" src="assets/images/timeline3.jpeg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="aboutText">September 2018</h4>
+                                <h4 class="subheading aboutText">Taking the Leap of Faith</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="aboutExplanation">After considering my options, I decided to attend the
+                                    Univeristy of Arizona Coding Bootcamp to futher tone my engineering skills in the
+                                    software world.
+                                    Through constant learning and application, I was able to start my new journey and
+                                    develop mu understanding further.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>Be Part
+                                <br>Of My
+                                <br>Story!</h4>
+                        </div>
+                    </li>
+                </ul>
             </div>
-          </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    
-    <div class="parallax"></div>
-    
-    
-    <div id="portfolio">
-        <div class="container">
+
+<div class="parallax"></div>
+
+<section id="skills">
+    <div class="container">
         <div class="row">
-            <div class="col col-xl-12">
-                <h2>Projects</h2>
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading aboutHeading">My Skills</h2>
+                <hr>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col col-xl-6">
+                <canvas id="skillsChart"></canvas>
+            </div>
+            <div class="col col-xl-6">
+                <canvas id="engineeringChart"></canvas>
+            </div>
+        </div>
+        <hr style="border: 1px solid red">
+        <div class="row" style="margin-top:40px">
+            <div class="col d-flex justify-content-start">
+                <a href="http://linkedin.com/in/fady-naguib">
+                    <img src="assets/images/linkedin.jpg" class="rounded-circle" style="width:200px; height:200px">
+                </a>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <a href="https://github.com/fadynaguib96">
+                    <img src="assets/images/github.png" class="rounded-circle" style="width:200px; height:200px">
+                </a>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <a href="/assets/Resume/Fady Naguib's Resume.docx" download="Fady's Resume"><img src="assets/images/resume.png"
+                        class="rounded-circle" style="width:200px; height:200px"></a>
+            </div>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="parallax"></div>
+
+
+
+
+
+
+
+
+
+
+<div id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading aboutHeading">My Portfolio</h2>
             </div>
         </div>
         <hr>
         <div class="row no-gutters popup-gallery">
-            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="1s" data-wow-iteration="1">
+            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="1s"
+                data-wow-iteration="1">
                 <div class="portfolio-box">
-                    <img class="img-fluid myImg" src="assets/images/hangman.JPG" alt="">
+                    <img class="img-fluid  myImg" src="assets/images/pet.JPG" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-name">
-                                Hangman Game
+                                Pet Friend
                             </div>
                             <div class="project-category text-faded">
-                                HTML5, CSS3, Bootstrap, Vanilla Javascript
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg1">
-                                    Learn More
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="1s" data-wow-iteration="1">
-                <div class="portfolio-box">
-                    <img class="img-fluid  myImg" src="assets/images/trivia.JPG" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-name">
-                                Trivia Game
-                            </div>
-                            <div class="project-category text-faded">
-                                HTML5, CSS3, Bootstrap, Javascript, Jquery
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg3">
-                                    Learn More
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="1s" data-wow-iteration="1">
-                <div class="portfolio-box">
-                    <img class="img-fluid  myImg" src="assets/images/liri.JPG" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-name">
-                                Liri Bot
-                            </div>
-                            <div class="project-category text-faded">
-                                Javascript, Node.js, NPM
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg6">
-                                    Learn More
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="2s" data-wow-iteration="1">
-                <div class="portfolio-box">
-                    <img class="img-fluid  myImg" src="assets/images/crystal2.JPG" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-name">
-                                Crystal Collector Game
-                            </div>
-                            <div class="project-category text-faded">
-                                HTML5, CSS3, Bootstrap, Javascript, Jquery
+                                HTML5, CSS3, Bootstrap, Javascript, Node.js, Express.js, React.js, MongoDB
                             </div>
                             <div>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg2">
@@ -255,27 +274,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="2s" data-wow-iteration="1">
-                <div class="portfolio-box">
-                    <img class="img-fluid  myImg" src="assets/images/bamazon.JPG" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-name">
-                                Bamazon
-                            </div>
-                            <div class="project-category text-faded">
-                                Javascript, Node.js, NPM, MySQL
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg8">
-                                    Learn More
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="2s" data-wow-iteration="1">
+            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="1s"
+                data-wow-iteration="1">
                 <div class="portfolio-box">
                     <img class="img-fluid  myImg" src="assets/images/trainscheduler.JPG" alt="">
                     <div class="portfolio-box-caption">
@@ -295,7 +295,50 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="3s" data-wow-iteration="1">
+            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="1s"
+                data-wow-iteration="1">
+                <div class="portfolio-box">
+                    <img class="img-fluid  myImg" src="assets/images/wanderlust.JPG" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-name">
+                                Wanderlust
+                            </div>
+                            <div class="project-category text-faded">
+                                Javascript, Node.js/Express.js, MySQL, HTML5/CSS3, Bootstrap
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg6">
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="2s"
+                data-wow-iteration="1">
+                <div class="portfolio-box">
+                    <img class="img-fluid myImg" src="assets/images/hangman.JPG" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-name">
+                                Hangman Game
+                            </div>
+                            <div class="project-category text-faded">
+                                HTML5, CSS3, Bootstrap, Vanilla Javascript
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg1">
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="2s"
+                data-wow-iteration="1">
                 <div class="portfolio-box">
                     <img class="img-fluid  myImg" src="assets/images/wordconstructor.JPG" alt="">
                     <div class="portfolio-box-caption">
@@ -315,16 +358,59 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="3s" data-wow-iteration="1">
+            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="2s"
+                data-wow-iteration="1">
+                <div class="portfolio-box">
+                    <img class="img-fluid  myImg" src="assets/images/trivia.JPG" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-name">
+                                Trivia Game
+                            </div>
+                            <div class="project-category text-faded">
+                                HTML5, CSS3, Bootstrap, Javascript, Jquery
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg3">
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="2s"
+                data-wow-iteration="1">
+                <div class="portfolio-box">
+                    <img class="img-fluid  myImg" src="assets/images/clicky.JPG" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-name">
+                                Clicky Game
+                            </div>
+                            <div class="project-category text-faded">
+                                Javascript, React.js
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg8">
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="3s"
+                data-wow-iteration="1">
                 <div class="portfolio-box">
                     <img class="img-fluid  myImg" src="assets/images/Giftastic.JPG" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-name">
-                                Giftatsic
+                                NYT-Book-Search
                             </div>
                             <div class="project-category text-faded">
-                                HTML5, CSS3, Bootstrap, Javascript, Jquery, API
+                                JavaScript, React.js, MongoDB, Node.js, Express.js
                             </div>
                             <div>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg4">
@@ -335,16 +421,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="3s" data-wow-iteration="1">
+            <div class="col-lg-4 col-sm-6 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="3s"
+                data-wow-iteration="1">
                 <div class="portfolio-box">
                     <img class="img-fluid  myImg" src="assets/images/friendfinder.JPG" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-name">
-                                Friend Finder
+                                PetHub
                             </div>
                             <div class="project-category text-faded">
-                                HTML5, Javascript, jQuery, node.js, heroku
+                                    JavaScript, React.js, MongoDB, Node.js, Express.js
                             </div>
                             <div>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg9">
@@ -354,626 +441,784 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div> -->
 
 
-            
-
-            
         </div>
     </div>
-    
+
 </div>
 
 
 <div class="parallax"></div>
 
+<section class="contact-section bg-black" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading aboutHeading">Contact Me</h2>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                        <h4 class="text-uppercase m-0">Address</h4>
+                        <hr class="my-4">
+                        <div class="small text-black-50">6417 N 83rd Dr</div>
+                        <div class="small text-black-50">Glendale, AZ</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-envelope text-primary mb-2"></i>
+                        <h4 class="text-uppercase m-0">Email</h4>
+                        <hr class="my-4">
+                        <div class="small text-black-50">
+                            <span>fadynaguib1996@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                        <h4 class="text-uppercase m-0">Phone</h4>
+                        <hr class="my-4">
+                        <div class="small text-black-50">+1 (623)-760-8087</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 
-<div id="contact" class="container">
+
+<!-- <div id="contact" class="container">
     <div class="row">
         <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Let's Get In Touch!</h2>
             <hr class="my-4">
-            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email
+            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an
+                email
                 and we will get back to you as soon as possible!</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 ml-auto text-center">
-                <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
-                <p>623-760-8087</p>
-            </div>
-            <div class="col-lg-4 mr-auto text-center">
-                <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
-                <p>
-                    <a href="mailto:your-email@your-domain.com">fadynaguib1996@gmail.com</a>
-                </p>
-            </div>
         </div>
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    <!-- modals hangman -->
-    
-    <div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Hangman Game</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container overlayCont">
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <img src="assets/images/hangman.gif" class="overlayImg">
-                            </div>
+    <div class="row">
+        <div class="col-lg-4 ml-auto text-center">
+            <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
+            <p>623-760-8087</p>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+            <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
+            <p>
+                <a href="mailto:your-email@your-domain.com">fadynaguib1996@gmail.com</a>
+            </p>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
+
+
+
+<!-- modals hangman -->
+
+<div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Hangman Game</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container overlayCont">
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <img src="assets/images/hangman.gif" class="overlayImg">
                         </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Description of the game: </strong>This game follows a hangman game structure,
-                                    in which
-                                    has seven
-                                    tries in order to correctly guess
-                                    the correct letters of the word. If the user was successful, the game logs a win and
-                                    the game is
-                                    restarted. However, if the user fails, the game logs a lose
-                                    and the game is restarted.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Development Description: </strong>Using the powers of front-end development,
-                                    the HTML,
-                                    CSS, and
-                                    Javascript were used to create this game. With the HTML mostly dependent on the vanilla
-                                    Javascript code,
-                                    the game is designed in a recursive reset function, in which a random word is picked
-                                    and goes
-                                    through a series on conversion steps until it displays on the HTML as empty lines. The
-                                    game resets
-                                    when the user reaches either the winning, losing, or out of tries conditions in the
-                                    code.
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p> <a href="https://fadynaguib96.github.io/Word-Guess-Game/"><button type="button" class="btn btn-dark">Visit
-                                            Website</button></a>
-                                    <a href="https://github.com/fadynaguib96/Word-Guess-Game"><button type="button" class="btn btn-dark">Visit
-                                            Github Repo</button></a></p>
-    
-                            </div>
-    
-                        </div>
-    
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    <!-- modal hangman end-->
-    
-    <!-- modals crystal game -->
-    
-    <div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Crystal Collector Game</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container overlayCont">
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <img src="assets/images/crystal.gif" class="overlayImg">
-                            </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Description of the game: </strong>This game follows a hangman game
+                                structure,
+                                in which
+                                has seven
+                                tries in order to correctly guess
+                                the correct letters of the word. If the user was successful, the game logs a win
+                                and
+                                the game is
+                                restarted. However, if the user fails, the game logs a lose
+                                and the game is restarted.
+                            </p>
                         </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Description of the game: </strong>In this game, the user will be given a random
-                                    number at the start of the game. With four crystals with four different score values
-                                    displayed on the screen, the user would click on a crystal and add a specific amount of
-                                    points to your total score. The user would win the game by matching your total score to
-                                    random number, or lose if the total score goes above the random number. Each time when
-                                    the game restarts, the crystal values will change.
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Development Description: </strong>The focus of the project was to implement
-                                    jquery along with javascript in order to dynamically assign values to the crystals.
-                                    Jquery was also used to manipulate the DOM dynmaically with every user input. HTML and
-                                    CSS files were constructed in a way that always them to be easily targeted by jQuery.
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p> <a href="https://fadynaguib96.github.io/unit-4-game/"><button type="button" class="btn btn-dark">Visit
-                                            Website</button></a>
-                                    <a href="https://github.com/fadynaguib96/unit-4-game"><button type="button" class="btn btn-dark">Visit
-                                            Github Repo</button></a></p>
-    
-                            </div>
-    
-                        </div>
-    
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    <!-- modal crystal end-->
-    
-    <!-- modals trivia game -->
-    
-    <div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Trivia Game</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container overlayCont">
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <img src="assets/images/trivia.gif" class="overlayImg">
-                            </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Development Description: </strong>Using the powers of front-end
+                                development,
+                                the HTML,
+                                CSS, and
+                                Javascript were used to create this game. With the HTML mostly dependent on the
+                                vanilla
+                                Javascript code,
+                                the game is designed in a recursive reset function, in which a random word is
+                                picked
+                                and goes
+                                through a series on conversion steps until it displays on the HTML as empty lines.
+                                The
+                                game resets
+                                when the user reaches either the winning, losing, or out of tries conditions in the
+                                code.
+                            </p>
                         </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Description of the game: </strong>In this game, the user will be playing a
-                                    trivia game, in which there is a time set of twenty seconds for each question. If the
-                                    user guesses either right, wrong, or doesn't guess at all, the game will tell the user
-                                    the correct answer and go to the next question.
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Development Description: </strong>For the project, using the powers of
-                                    Javascript and Jquery combined, a recursive function that loops through an array of
-                                    object was created. Also, using the powers of time outs and intervals, this game was
-                                    made so that if the time runs out for the user, the game would reset to the next
-                                    question. HTML and CSS files were constructed in a way that always them to be easily
-                                    targeted by jQuery.
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p> <a href="https://fadynaguib96.github.io/TriviaGame/"><button type="button" class="btn btn-dark">Visit
-                                            Website</button></a>
-                                    <a href="https://github.com/fadynaguib96/TriviaGame"><button type="button" class="btn btn-dark">Visit
-                                            Github Repo</button></a></p>
-    
-                            </div>
-    
-                        </div>
-    
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    <!-- modal trivia end-->
-    
-    <!-- modals giftastic game -->
-    
-    <div class="modal fade bd-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Giftastic</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container overlayCont">
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <img src="assets/images/giftastic.gif" class="overlayImg">
-                            </div>
+
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p> <a href="https://fadynaguib96.github.io/Word-Guess-Game/"><button type="button" class="btn btn-dark">Visit
+                                        Website</button></a>
+                                <a href="https://github.com/fadynaguib96/Word-Guess-Game"><button type="button" class="btn btn-dark">Visit
+                                        Github Repo</button></a></p>
+
                         </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Description of the game: </strong>In this app, the GIPHY Api is pulled in using
-                                    the "get" method to display giphy of several hip-hop artists. The user can also add
-                                    buttons to the main menu in order to view that particular artist's gifs.
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Development Description: </strong>For this project, using the powers of
-                                    Javascript and Jquery, the HTML is being targeted using Jguery to create sections for
-                                    the response on an Ajax call from GIPHY. The app picks out specific needed information
-                                    from the response. Javascript and Jquery were used to dynmaically create more buttons
-                                    based on the user's request.
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p> <a href="https://fadynaguib96.github.io/Giftastic/"><button type="button" class="btn btn-dark">Visit
-                                            Website</button></a>
-                                    <a href="https://github.com/fadynaguib96/Giftastic"><button type="button" class="btn btn-dark">Visit
-                                            Github Repo</button></a></p>
-    
-                            </div>
-    
-                        </div>
-    
+
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
-    
-    
-    
-    <!-- modal giftatsic end-->
-    
-    <!-- modals trainscheduler game -->
-    
-    <div class="modal fade bd-example-modal-lg5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Train Scheduler</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container overlayCont">
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <img src="assets/images/trainscheduler.gif" class="overlayImg">
-                            </div>
+</div>
+
+
+
+<!-- modal hangman end-->
+
+<!-- modals crystal game -->
+
+<div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">My Best Friend</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container overlayCont">
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <img src="assets/images/pet.gif" class="overlayImg">
                         </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Description of the project: </strong>This is a train scheduler that takes in
-                                    administrator information to display it to the user. The app calculates how long till
-                                    the next train ride for each tarin in the database along with the train name,
-                                    destination, and next arrival time.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Development Description: </strong>For this project, a firebase database was
-                                    used to store administartor information. When the administrator would send in new train
-                                    information, Javascript was used along with moment.js library to be able to convert
-                                    user input into time and compare it with the actual time. The HTML is dynmaically
-                                    constructed using jQuery with new information about different trains.
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p> <a href="https://fadynaguib96.github.io/TrainScheduler/"><button type="button" class="btn btn-dark">Visit
-                                            Website</button></a>
-                                    <a href="https://github.com/fadynaguib96/TrainScheduler"><button type="button" class="btn btn-dark">Visit
-                                            Github Repo</button></a></p>
-    
-                            </div>
-    
-                        </div>
-    
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    <!-- modal trainscheduler end-->
-    
-    <!-- modals liri game -->
-    
-    <div class="modal fade bd-example-modal-lg6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Liri Bot</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container overlayCont">
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <img src="assets/images/liri.gif" class="overlayImg">
-                            </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Description of the application: </strong>Pet Friend is an application devoted for pet
+                                lovers to go through articles about animals and look up information on raising pets.
+                                The forum is
+                                there for users to interact with each other and ask each others questions about pet
+                                health, event, breeding,..etc.
+                                Users can also find the closest highly rated veterians. They can also post about lost
+                                animals for other
+                                users who lost their pets.
                         </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Description of the project: </strong>This liri bot is an iphone siri-like
-                                    language bot that takes serachs three different APIs, such as bands in town,spotify,
-                                    and OMBD, based on the user's input. The app will display key information from those
-                                    APIs. The inputs the user can use is "concert-this 'artist name'", "spotify-this song
-                                    'song name'", and "movie-this 'movie name'".
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Development Description: </strong>For this project, node.js was used to run
-                                    javascript outside of the browser to display key information from the different APIs
-                                    being used based on the user's input. Node module packages such as request were
-                                    installed in order to use ajax hhtp calls to the websites.
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p> <a href="https://github.com/fadynaguib96/liri-node-app"><button type="button" class="btn btn-dark">Visit
-                                            Github Repo</button></a>
-                                </p>
-    
-                            </div>
-    
-                        </div>
-    
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    <!-- modal liri end-->
-    
-    
-    <!-- modals wordconstructor game -->
-    
-    <div class="modal fade bd-example-modal-lg7" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Word Constructor Game</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container overlayCont">
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <img src="assets/images/wordconstructor.gif" class="overlayImg">
-                            </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Development Description: </strong>React.js was used as the front-end platform
+                                of this applications. The front-end
+                                was split into components that were used on multiple pages. Node.js/Express.js were
+                                used to run the back-end portion of
+                                the application, mostly for interactions with our mongo database and web scraping using Cheerio.
+                                User Authentication
+                                was used using JSON Web Tokens and passport.js
+                                to check for authentication.
+                            </p>
                         </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Description of the project: </strong>This game is a word constructor game made
-                                    in node.js. This game follows a hangman game structure, in which the user has seven
-                                    tries in order to correctly guess the correct letters of the word. If the user was
-                                    successful, the game logs a win and the game is restarted. However, if the user fails,
-                                    the game logs a lose and the game is restarted.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Development Description: </strong>For this game, node.js was used to run
-                                    javascript outside of the browser to display the selected work in underscores and plays
-                                    the game. The inquirer npm package was used to take in the user's guess and use it for
-                                    the game. The
-                                    game resets
-                                    when the user reaches either the winning, losing, or out of tries conditions in the
-                                    code.
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p> <a href="https://github.com/fadynaguib96/Word-Constructor-Game"><button type="button"
-                                            class="btn btn-dark">Visit Github Repo</button></a>
-                                </p>
-    
-                            </div>
-    
-                        </div>
-    
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    <!-- modal wordconstructo end-->
-    
-    
-    <!-- modals nodemysql game -->
-    
-    <div class="modal fade bd-example-modal-lg8" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Bamazon</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container overlayCont">
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <img src="assets/images/bamazon.gif" class="overlayImg">
-                            </div>
+
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p> <a href="https://enigmatic-lake-24268.herokuapp.com/"><button type="button" class="btn btn-dark">Visit
+                                        Website</button></a>
+                                <a href="https://github.com/austinwayman/mansbestfriend"><button type="button" class="btn btn-dark">Visit
+                                        Github Repo</button></a></p>
+
                         </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Description of the project: </strong>This is an amazon like app that displays
-                                    all items currently available. The user would have an option of putting in an id number
-                                    of the item he/she wants to purchase. Then, the user would input the quantity desired.
-                                    The app wpuld then display the total price of the items wanted.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Development Description: </strong>For this app, node.js was used to run
-                                    javascript outside of the browser to display all items in a mySQL database. The
-                                    inquirer packages would take in the user's input and update the inventory quantity of
-                                    the database. Through a series of error checks, if the item is avialable in the
-                                    quantity desired bu the user, the purchase will go through.
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p> <a href="https://github.com/fadynaguib96/Node.js-MySQL"><button type="button" class="btn btn-dark">Visit
-                                            Github Repo</button></a>
-                                </p>
-    
-                            </div>
-    
-                        </div>
-    
+
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
-    
-    
-    
-    <!-- modal nodesql end-->
-    
-    
-    
-    <!-- modal wordconstructo end-->
-    
-    
-    <!-- modals friendfinder game -->
-    
-    <div class="modal fade bd-example-modal-lg9" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Bamazon</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container overlayCont">
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <img src="assets/images/friendfinder.gif" class="overlayImg">
-                            </div>
+</div>
+
+
+
+<!-- modal crystal end-->
+
+<!-- modals trivia game -->
+
+<div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Trivia Game</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container overlayCont">
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <img src="assets/images/trivia.gif" class="overlayImg">
                         </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Description of the project: </strong>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p>
-                                    <strong>Development Description: </strong>
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div class="row">
-                            <div class="col col-xl-12 modalHeader">
-                                <p> <a href="https://github.com/fadynaguib96/Node.js-MySQL"><button type="button" class="btn btn-dark">Visit
-                                            Github Repo</button></a>
-                                </p>
-    
-                            </div>
-    
-                        </div>
-    
                     </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Description of the game: </strong>In this game, the user will be playing a
+                                trivia game, in which there is a time set of twenty seconds for each question. If
+                                the
+                                user guesses either right, wrong, or doesn't guess at all, the game will tell the
+                                user
+                                the correct answer and go to the next question.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Development Description: </strong>For the project, using the powers of
+                                Javascript and Jquery combined, a recursive function that loops through an array of
+                                object was created. Also, using the powers of time outs and intervals, this game
+                                was
+                                made so that if the time runs out for the user, the game would reset to the next
+                                question. HTML and CSS files were constructed in a way that always them to be
+                                easily
+                                targeted by jQuery.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p> <a href="https://fadynaguib96.github.io/TriviaGame/"><button type="button" class="btn btn-dark">Visit
+                                        Website</button></a>
+                                <a href="https://github.com/fadynaguib96/TriviaGame"><button type="button" class="btn btn-dark">Visit
+                                        Github Repo</button></a></p>
+
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-    
-    
-    
-    <!-- modal friendfinder end-->
-    
+</div>
+
+
+
+<!-- modal trivia end-->
+
+<!-- modals giftastic game -->
+
+<!-- <div class="modal fade bd-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Giftastic</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container overlayCont">
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <img src="assets/images/giftastic.gif" class="overlayImg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Description of the game: </strong>In this app, the GIPHY Api is pulled in
+                                using
+                                the "get" method to display giphy of several hip-hop artists. The user can also add
+                                buttons to the main menu in order to view that particular artist's gifs.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Development Description: </strong>For this project, using the powers of
+                                Javascript and Jquery, the HTML is being targeted using Jguery to create sections
+                                for
+                                the response on an Ajax call from GIPHY. The app picks out specific needed
+                                information
+                                from the response. Javascript and Jquery were used to dynmaically create more
+                                buttons
+                                based on the user's request.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p> <a href="https://fadynaguib96.github.io/Giftastic/"><button type="button" class="btn btn-dark">Visit
+                                        Website</button></a>
+                                <a href="https://github.com/fadynaguib96/Giftastic"><button type="button" class="btn btn-dark">Visit
+                                        Github Repo</button></a></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+<!-- modal giftatsic end-->
+
+<!-- modals trainscheduler game -->
+
+<div class="modal fade bd-example-modal-lg5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Train Scheduler</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container overlayCont">
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <img src="assets/images/trainscheduler.gif" class="overlayImg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Description of the project: </strong>This is a train scheduler that takes
+                                in
+                                administrator information to display it to the user. The app calculates how long
+                                till
+                                the next train ride for each tarin in the database along with the train name,
+                                destination, and next arrival time.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Development Description: </strong>For this project, a firebase database was
+                                used to store administartor information. When the administrator would send in new
+                                train
+                                information, Javascript was used along with moment.js library to be able to convert
+                                user input into time and compare it with the actual time. The HTML is dynmaically
+                                constructed using jQuery with new information about different trains.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p> <a href="https://fadynaguib96.github.io/TrainScheduler/"><button type="button" class="btn btn-dark">Visit
+                                        Website</button></a>
+                                <a href="https://github.com/fadynaguib96/TrainScheduler"><button type="button" class="btn btn-dark">Visit
+                                        Github Repo</button></a></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- modal trainscheduler end-->
+
+<!-- modals liri game -->
+
+<div class="modal fade bd-example-modal-lg6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Liri Bot</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container overlayCont">
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <img src="assets/images/wanderlust.gif" class="overlayImg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Description of the project: </strong>Wanderlust is an airbnb-like application,
+                                in which
+                                users can search for listings in cities in the United States. They can also yelp
+                                recommendations
+                                in the coty they wish to go. Registered users can also post, update, and delete their
+                                listings.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Development Description: </strong>For this project, HTML5, CSS3, Bootstrap, and
+                                Handlebars.js
+                                were used to build the froont end of the website. Node.js and Express.js were used for
+                                the backend routes and
+                                interaction with the MySQL database. User Authentication was acheived using the NPM
+                                package "passport.js". The yelp API was called
+                                using the NPM package "yelp-fusion" and shown on the frontend.
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p> <a href="https://floating-brook-49222.herokuapp.com/"><button type="button" class="btn btn-dark">Visit
+                                        Website</button></a>
+                                <a href="https://github.com/austinwayman/Project2"><button type="button" class="btn btn-dark">Visit
+                                        Github Repo</button></a></p>
+                                        
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- modal liri end-->
+
+
+<!-- modals wordconstructor game -->
+
+<div class="modal fade bd-example-modal-lg7" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Word Constructor Game</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container overlayCont">
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <img src="assets/images/wordconstructor.gif" class="overlayImg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Description of the project: </strong>This game is a word constructor game
+                                made
+                                in node.js. This game follows a hangman game structure, in which the user has seven
+                                tries in order to correctly guess the correct letters of the word. If the user was
+                                successful, the game logs a win and the game is restarted. However, if the user
+                                fails,
+                                the game logs a lose and the game is restarted.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Development Description: </strong>For this game, node.js was used to run
+                                javascript outside of the browser to display the selected work in underscores and
+                                plays
+                                the game. The inquirer npm package was used to take in the user's guess and use it
+                                for
+                                the game. The
+                                game resets
+                                when the user reaches either the winning, losing, or out of tries conditions in the
+                                code.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p> <a href="https://github.com/fadynaguib96/Word-Constructor-Game"><button type="button"
+                                        class="btn btn-dark">Visit Github Repo</button></a>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- modal wordconstructo end-->
+
+
+<!-- modals nodemysql game -->
+
+<div class="modal fade bd-example-modal-lg8" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Pet Friend</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container overlayCont">
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <img src="assets/images/clicky.gif" class="overlayImg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Description of the project: </strong>Clicky is a memory game, in which the user
+                                clicks on cards of players with the score increasing each time. The cards shuffles
+                                everytime
+                                the user clicks on a card. The user either loses if he/she clicks on a card twice or
+                                wins if all
+                                the cards have been clicke don once.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Development Description: </strong>This application was made with React.js, with
+                                all components
+                                developed with JSX. The folder structure was seperated into components and used in an
+                                full app file.
+                                The logic of the game was developed with JavaScript.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p> <a href="https://github.com/fadynaguib96/Clicky-Game"><button type="button" class="btn btn-dark">Visit
+                                        Github Repo</button></a>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- modal nodesql end-->
+
+
+
+<!-- modal wordconstructo end-->
+
+
+<!-- modals friendfinder game -->
+
+<div class="modal fade bd-example-modal-lg9" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Bamazon</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container overlayCont">
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <img src="assets/images/friendfinder.gif" class="overlayImg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Description of the project: </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p>
+                                <strong>Development Description: </strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col col-xl-12 modalHeader">
+                            <p> <a href="https://github.com/fadynaguib96/Node.js-MySQL"><button type="button" class="btn btn-dark">Visit
+                                        Github Repo</button></a>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- modal friendfinder end-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
+
+<script type="text/javascript">
+
+
+    new Chart(document.getElementById("skillsChart"), {
+        type: 'pie',
+        data: {
+            labels: ["HTML5/CSS3", "JavaScript", "jQuery", "Node.js/Express.js", "MongoDB", "MySQL", "React.js", "Java", "Python"],
+            datasets: [{
+                label: "Experience (%)",
+                backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850", "#E78E00", "#55D685", "#80277D", "#A7B500"],
+                data: [14, 14, 14, 14, 14, 6, 14, 6, 6]
+            }]
+        },
+        options: {
+            legend: {
+                position: 'left',
+                fontSize: 15,
+                fontFamily: "'Dosis', sans-serif",
+                labels: {
+                    fontColor: 'white'
+                }
+            },
+            title: {
+                display: true,
+                text: 'Programming Experience (%)',
+                fontColor: 'white',
+                fontSize: 15,
+                fontColor: "gold"
+            }
+
+        }
+    });
+
+    new Chart(document.getElementById("engineeringChart"), {
+        type: 'pie',
+        data: {
+            labels: ["Six Sigma", "Process Optimization", "Process Design", "Research", "Documentation Reading", "Report Writing"],
+            datasets: [{
+                label: "Experience (%)",
+                backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850", "#E78E00"],
+                data: [17, 17, 17, 17, 17, 17]
+            }]
+        },
+        options: {
+            legend: {
+                position: 'left',
+                fontSize: 15,
+                labels: {
+                    fontColor: 'white',
+                }
+            },
+            title: {
+                display: true,
+                text: 'Engineering Experience (%)',
+                fontColor: 'white',
+                fontSize: 15,
+                fontColor: "gold"
+            }
+
+        }
+    });
+
+
+
+
+</script>
 
 <script type="text/javascript" src="assets/javascript/particles.js"></script>
+
 <script type="text/javascript" src="assets/javascript/portfolio.js"></script>
+
 <script type="text/javascript" src="assets/javascript/portfolio1.js"></script>
+
 <script src="/assets/javascript/wow.min.js"></script>
+
+
 <script>
-new WOW().init();
+    new WOW().init();
 </script>
+
+
 
 
 
